@@ -1,47 +1,4 @@
-.container-fluid.ms_header{
-    background-color: aqua;
-}
-
-.container-lg {
-    background-color: azure;
-    height: 50px;
-}
-
-.container-fluid.ms_jumbo {
-    background-color: beige;
-    height: 300px;
-}
-
-.container-fluid.ms_layout-6 {
-    background-color: brown;
-}
-
-.container-fluid.ms_layout-6 .grid {
-    background-color: blueviolet;
-}
-
-.container-fluid.ms_portfolio {
-    background-color: cadetblue;
-}
-
-.container-fluid.ms_portfolio .content {
-    background-color: blueviolet;
-}
-
-.container-fluid.ms_about {
-    background-color: chocolate;
-}
-
-.container-fluid.ms_contact {
-    background-color: aquamarine;
+.container-fluid.ms_jumbo img{
     height: 200px;
-}
-
-.container-fluid.ms_top-footer {
-    background-color: antiquewhite;
-}
-
-.container-fluid.ms_bottom-footer {
-    background-color: burlywood;
-    height: 200px;
+    width: 200px;
 }

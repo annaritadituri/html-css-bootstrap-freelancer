@@ -13,8 +13,30 @@
 
         <div class="container-fluid ms_header">
 
-            <div class="container-lg">
+            <div class="container-lg py-2">
             
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid text-uppercase">
+                      <a class="navbar-brand" href="#">Start Bootstrap</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
             </div>
     
         </div>
@@ -23,9 +45,14 @@
 
     <main>
 
-        <div class="container-fluid text-center ms_jumbo">
+        <div class="container-fluid text-center ms_jumbo py-2">
 
-            <div class="content">
+            <div class="content text-uppercase">
+                
+                <img src="./img/avatar.svg" alt="avatar">
+                <h1>Start bootstrap</h1>
+                <div></div>
+                <p>Graphic Artist - Web Designer - Illustrator</p>
     
             </div>
     
@@ -33,49 +60,52 @@
     
         <div class="container-fluid ms_portfolio">
     
-            <div class="container text-center">
+            <div class="container text-center py-2">
+
+                <h1 class="text-uppercase">Portfolio</h2>
+                <div></div>
     
                 <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-3">
         
                     <div class="col">
 
-                        <div class="content">
-                            1
+                        <div class="content rounded overflow-hidden">
+                            <img src="./img/cabin.png" alt="cabin" class="mw-100">
                         </div>
 
                     </div>
                     <div class="col">
 
-                        <div class="content">
-                            2
+                        <div class="content rounded overflow-hidden">
+                            <img src="./img/cake.png" alt="cake" class="mw-100">
                         </div>
 
                     </div>
                     <div class="col">
 
-                        <div class="content">
-                            3
+                        <div class="content rounded overflow-hidden">
+                            <img src="./img/circus.png" alt="circus" class="mw-100">
                         </div>
 
                     </div>
                     <div class="col">
 
-                        <div class="content">
-                            4
+                        <div class="content rounded overflow-hidden">
+                            <img src="./img/game.png" alt="game" class="mw-100">
                         </div>
 
                     </div>
                     <div class="col">
 
-                        <div class="content">
-                            5
+                        <div class="content rounded overflow-hidden">
+                            <img src="./img/safe.png" alt="safe" class="mw-100">
                         </div>
 
                     </div>
                     <div class="col">
 
-                        <div class="content">
-                            6
+                        <div class="content rounded overflow-hidden">
+                            <img src="./img/submarine.png" alt="submarine" class="mw-100">
                         </div>
 
                     </div>
@@ -86,37 +116,55 @@
     
         </div>
     
-        <div class="container-fluid ms_about">
+        <div class="container-fluid ms_about px-5">
     
-            <div class="container text-center px-5">
+            <div class="container text-center px-5 py-2">
+
+                <h1 class="text-uppercase">About</h2>
+                <div></div>
     
-                <div class="row row-cols-1 row-cols-lg-2">
+                <div class="row row-cols-1 row-cols-lg-2 text-start">
 
                     <div class="col">
 
                         <div class="content">
-                            bla
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
                         </div>
 
                     </div>
                     <div class="col">
 
                         <div class="content">
-                            bla
+                            Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                         </div>
 
                     </div>
 
                 </div>
+
+                <button type="button" class="btn btn-primary">Download</button>
     
             </div>
     
         </div>
     
-        <div class="container-fluid ms_contact">
+        <div class="container-fluid ms_contact px-5">
     
-            <div class="container">
+            <div class="container text-center px-5 py-2">
+
+                <h1 class="text-uppercase">Contact me</h2>
     
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
             </div>
     
         </div>
@@ -128,28 +176,31 @@
 
         <div class="container-fluid ms_top-footer">
 
-            <div class="container text-center">
+            <div class="container text-center py-2">
 
                 <div class="row row-cols-1 row-cols-lg-3">
 
                     <div class="col">
 
                         <div class="content">
-                            1
+                            <h2 class="text-uppercase">Location</h2>
+                            <p>2215 John Daniel Drive Clark, MO 54243</p>
                         </div>
 
                     </div>
                     <div class="col">
 
                         <div class="content">
-                            2
+                            <h2 class="text-uppercase">Around the web</h2>
+                            <div></div>
                         </div>
                         
                     </div>
                     <div class="col">
 
                         <div class="content">
-                            3
+                            <h2 class="text-uppercase">About Freelancer</h2>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
                         </div>
                         
                     </div>
@@ -162,7 +213,11 @@
 
         <div class="container-fluid ms_bottom-footer">
 
-            <div class="container">
+            <div class="container text-center py-2">
+
+                <div class="content">
+                    <p>Copyright Your Website 2019</p>
+                </div>
 
             </div>
 
@@ -170,5 +225,8 @@
 
     </footer>
     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
